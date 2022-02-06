@@ -1,0 +1,13 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "layers": {
+      "aliases": [
+        "l"
+      ],
+      "description": "It creates a layered structure",
+      "factory": "./layers/index#layers",
+      "schema": "./layers/schema.json"
+    }
+  }
+}
