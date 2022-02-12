@@ -8,6 +8,15 @@
       "description": "It creates a layered structure",
       "factory": "./layers/index#layers",
       "schema": "./layers/schema.json"
+    },
+    "layers-with-store": {
+      "aliases": [
+        "ls",
+        "layers-store"
+      ],
+      "description": "It creates a layered structure with additional component store implementation",
+      "factory": "./layers-with-store/index#layersWithStore",
+      "schema": "./layers-with-store/schema.json"
     }
   }
 }

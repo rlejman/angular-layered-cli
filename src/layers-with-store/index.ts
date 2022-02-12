@@ -47,7 +47,7 @@ function createHost(tree: Tree): workspaces.WorkspaceHost {
   };
 }
 
-export function layers(_options: Schema): Rule {
+export function layersWithStore(_options: Schema): Rule {
 
   return async (tree: Tree, _context: SchematicContext) => {
     const host = createHost(tree);
